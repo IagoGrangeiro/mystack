@@ -32,7 +32,7 @@ export default function RootLayout({
             <h1 className="text-3xl antialiased">Usuários & Postagens</h1>
           </Link>
           <Link href={"/login"}>
-            <span className="bg-slate-300 rounded-md p-2">Log in</span>
+            <span className="bg-slate-300 rounded-md p-2 text-nowrap">Log in</span>
           </Link>
         </header>
         {children}
