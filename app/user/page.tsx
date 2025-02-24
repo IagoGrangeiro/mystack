@@ -11,7 +11,7 @@ const UserPage = async () => {
       <h1 className="text-3xl">Users page</h1>
       <ul>
         {users.map(user => (
-          <li key={user.id}><Link href={`/user/${user.id}`}>{user.name}</Link></li>
+          <li key={user.id}><Link href={`/user/${user.id}`}>{user.username}</Link></li>
         ))}
       </ul>
     </div>
