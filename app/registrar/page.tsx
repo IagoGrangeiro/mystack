@@ -66,7 +66,7 @@ export default function Registrar() {
                     htmlFor=""
                     className="mb-2 mx-2"
                 >
-                    Repita a senha
+                    Confirmação a senha
                 </label>
                 <input
                     type="password"
